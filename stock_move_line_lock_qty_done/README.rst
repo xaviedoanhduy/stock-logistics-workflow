@@ -28,8 +28,8 @@ Lock Done Quantity Changes in Stock Moves
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module limits the capability to modify the done quantity for stock moves
-once they have been validated.
+This module can limit the ability to modify the done quantity of stock moves once they are validated,
+configurable per company through the settings.
 
 **Table of contents**
 
@@ -39,8 +39,10 @@ once they have been validated.
 Configuration
 =============
 
-To configure this module, you need to add the users allowed to edit the done quntity
-for done moves to the group "Can edit done quantity for done stock moves"
+Update the following settings:
+
+* Go to *Inventory > Settings* and select the 'Limit Updates to Done Quantity After Validation' option to enable the restriction. This should be done for each company.
+* Add users who are allowed to edit the done quantity for done moves to the group 'Can edit done quantity for done stock moves'.
 
 Bug Tracker
 ===========
@@ -64,6 +66,9 @@ Contributors
 ~~~~~~~~~~~~
 
 * Souheil Bejaoui <souheil.bejaoui@acsone.eu>
+* `Quartile <https://www.quartile.co>`_:
+
+  * Aung Ko Ko Lin
 
 Maintainers
 ~~~~~~~~~~~

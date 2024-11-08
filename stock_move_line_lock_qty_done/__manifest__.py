@@ -9,6 +9,8 @@
     "author": "ACSONE SA/NV, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/stock-logistics-workflow",
     "depends": ["stock"],
-    "data": ["security/res_groups.xml"],
-    "demo": [],
+    "data": [
+        "security/res_groups.xml",
+        "views/res_config_settings_views.xml",
+    ],
 }
