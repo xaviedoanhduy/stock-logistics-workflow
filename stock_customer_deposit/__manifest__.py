@@ -9,7 +9,7 @@
     "category": "Inventory/Delivery",
     "website": "https://github.com/OCA/stock-logistics-workflow",
     "author": "Moduon, Odoo Community Association (OCA)",
-    "maintainers": ["rafaelbn", "EmilioPascual"],
+    "maintainers": ["rafaelbn", "EmilioPascual", "Shide"],
     "license": "LGPL-3",
     "application": False,
     "installable": True,
